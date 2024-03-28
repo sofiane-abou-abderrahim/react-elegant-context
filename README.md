@@ -36,3 +36,10 @@
    4. use `cartCtx` to access the `items` property
 2. add a value to `<CartContext.Provider>` in `App.jsx`
 3. destructure `CartContext` so that you use `{ items }` straight away
+
+## 4. Linking the Context to State
+
+1. set the value of `<CartContext.Provider>` to the `shoppingCart` state in `App.jsx` to link the context to state
+2. to edit the state with context, create a `ctxValue` const which will be an object
+3. use `CartContext` in `Product.jsx`
+4. add `addItemToCart` function as an initial value in `shopping-cart-context.jsx` file
