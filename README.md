@@ -55,3 +55,8 @@
 2. use `CartContext` in `Header.jsx`
 3. add the `updateItemQuantity` function in the `ctxValue` constant in `App.jsx` & in `shopping-cart-context.jsx`
 4. extract `updateItemQuantity` in `Cart.jsx` & call it on the buttons
+
+## 7. Outsourcing Context & State Into a Separate Provider Component
+
+1. export a `CartContextProvider` function in `shopping-cart-context.jsx`
+2. import `CartContextProvider` & use it in `App.jsx`
