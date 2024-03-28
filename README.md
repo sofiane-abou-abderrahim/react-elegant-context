@@ -19,3 +19,10 @@
 
 1. embrace component composition by refactoring the `Shop.jsx` component to a wrapper around the list of products
 2. output the `<Product />` component inside the `<Shop>` component in `App.jsx`
+
+## 2. Creating & Providing The Context
+
+1. create a `store` folder
+2. create a `shopping-cart-context.jsx` file
+3. inside of this file, create a `CartContext` context
+4. provide it to this application and wrap it around the components in `App.jsx` by using `<CartContext.Provider>`
