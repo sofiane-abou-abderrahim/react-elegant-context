@@ -26,3 +26,13 @@
 2. create a `shopping-cart-context.jsx` file
 3. inside of this file, create a `CartContext` context
 4. provide it to this application and wrap it around the components in `App.jsx` by using `<CartContext.Provider>`
+
+# 3. Consuming the Context
+
+1. consume the `CartContext` in the `Cart.jsx` component
+   1. import `{ CartContext }`
+   2. import `{ useContext }`
+   3. set `useContext(CartContext)` as a value to `cartCtx`
+   4. use `cartCtx` to access the `items` property
+2. add a value to `<CartContext.Provider>` in `App.jsx`
+3. destructure `CartContext` so that you use `{ items }` straight away
