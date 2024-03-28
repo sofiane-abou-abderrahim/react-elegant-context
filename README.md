@@ -48,3 +48,10 @@
 
 1. use the `<CartContext.Consumer>` component to wrap the JSX code in `Cart.jsx`
 2. pass a function as a child inside `<CartContext.Consumer>` to automatically receive the consumed `cartCtx` value as a parameter
+
+## 6. Migrating the Entire Demo Project to use the Context API
+
+1. remove extra props
+2. use `CartContext` in `Header.jsx`
+3. add the `updateItemQuantity` function in the `ctxValue` constant in `App.jsx` & in `shopping-cart-context.jsx`
+4. extract `updateItemQuantity` in `Cart.jsx` & call it on the buttons
