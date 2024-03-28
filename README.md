@@ -43,3 +43,8 @@
 2. to edit the state with context, create a `ctxValue` const which will be an object
 3. use `CartContext` in `Product.jsx`
 4. add `addItemToCart` function as an initial value in `shopping-cart-context.jsx` file
+
+## 5. A Different Way Of Consuming Context
+
+1. use the `<CartContext.Consumer>` component to wrap the JSX code in `Cart.jsx`
+2. pass a function as a child inside `<CartContext.Consumer>` to automatically receive the consumed `cartCtx` value as a parameter
