@@ -60,3 +60,8 @@
 
 1. export a `CartContextProvider` function in `shopping-cart-context.jsx`
 2. import `CartContextProvider` & use it in `App.jsx`
+
+## 8. Introducing the useReducer Hook
+
+1. import `useReducer` in `shopping-cart-context.jsx`
+2. use `useReducer()` hook to manage the state
