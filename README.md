@@ -65,3 +65,8 @@
 
 1. import `useReducer` in `shopping-cart-context.jsx`
 2. use `useReducer()` hook to manage the state
+
+## 9. Dispatching Actions & Editing State with useReducer
+
+1. dispatch actions with `useReducer()` hook in `shopping-cart-context.jsx`
+2. edit the `shoppingCartReducer` function with the actions values
